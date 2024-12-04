@@ -1,0 +1,37 @@
+{
+    "loginlink":{
+        "locatorOptions":{
+
+        },
+        "locator":"xpath=//a[contains(.,'My account') and @data-toggle]",
+        "description":"Login Button Link "
+    },
+    "emailInput":{
+        "locatorOptions":{
+
+        },
+        "locator":"xpath=//input[@id='input-email']",
+        "description":"Email text box for login"
+    },
+    "passwordInput":{
+        "locatorOptions":{
+
+        },
+        "locator":"xpath=//input[@id='input-password']",
+        "description":"Password text box for login"
+    },
+    "loginButton":{
+        "locatorOptions":{
+
+        },
+        "locator":"input.btn-primary",
+        "description":"Login Button"
+    },
+    "logoutButton":{
+        "locatorOptions":{
+
+        },
+        "locator":"xpath=//a[contains(.,' Logout') and @class='list-group-item']",
+        "description":"Logout link Button"
+    }
+}

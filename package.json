@@ -1,0 +1,26 @@
+{
+  "name": "clr_playwright_bdd",
+  "version": "1.0.0",
+  "description": "clr-playwright-bdd-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test & npx ts-node index.ts"
+  },
+  "keywords": [
+    "pw",
+    "ts",
+    "js"
+  ],
+  "author": "Prasad.Nunna",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
+    "@playwright/test": "^1.49.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "cross-env":"7.0.3"
+  }
+}

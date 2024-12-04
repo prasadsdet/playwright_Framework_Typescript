@@ -1,0 +1,10 @@
+{
+    "EditAccountInformation": {
+        "locatorOptions": {},
+        "locator": "xpath=//a[contains(.,' Edit your account information')]",
+        "description": "Edit Account Information",
+        "actionOptions":{
+            "timeout":5000
+        }
+    }
+}
